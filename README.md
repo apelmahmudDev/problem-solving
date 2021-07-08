@@ -1,10 +1,10 @@
-# JavaScript Basic level Assignment.
+# JavaScript Basic level Problems.
 
-## assignment
+## 1. assignment
 
-## second-assignment
+## 2. second-assignment
 
-**assignment:-**
+**1. assignment:-**
 
 I have solved 4 problems in here that convert - 😃
 
@@ -12,3 +12,5 @@ I have solved 4 problems in here that convert - 😃
 - wood Caculation
 - bricks calculation of building and
 - determined tiny friend from an array
+
+**2. second-assignment:-**
