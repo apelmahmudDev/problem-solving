@@ -53,4 +53,34 @@ function hotelCost(placedCount) {
 
 const placedCount = 30; // how many days placed in hotel
 const guestHotelCost = hotelCost(placedCount);
-console.log(guestHotelCost); // your total hotel cost
+// console.log(guestHotelCost); // your total hotel cost
+
+// 8. Mega Friend
+
+const friends = [
+	'Ahm Ovi',
+	'Jahangir',
+	'Toiba Teleja Akter ajel',
+	'Humayun Kabir',
+	'Niaz Morshed',
+	'Rana Khan',
+	'Linkon',
+	'Sakib',
+	'Mushfiqur Rahamon',
+];
+
+function megaFriend(friends) {
+	let largest = 0;
+	for (let i = 0; i < friends.length; i++) {
+		let friend = friends[i];
+		if (friend.length > largest) {
+			largest = friend.length;
+		}
+	}
+	for (let i = 0; i < friends.length; i++) {
+		if (friends[i].length === largest) {
+			return friends[i];
+		}
+	}
+}
+console.log(megaFriend(friends));
